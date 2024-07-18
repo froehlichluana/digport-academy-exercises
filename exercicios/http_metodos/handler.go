@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/froehlichluana/exercicios/http_metodos/pessoa"
+	"github.com/froehlichluana/digport-academy-exercises/exercicios/http_metodos/pessoa"
 )
 
 func Rotas() *mux.Router {

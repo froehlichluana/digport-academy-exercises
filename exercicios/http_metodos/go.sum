@@ -1,0 +1,4 @@
+github.com/froehlichluana/digport-academy-exercises v0.0.0-20240718164208-8425bdeeb66c h1:EzQ22hx39Q1ZZEfdvgjxQJC4oJjLsPj2PuasygOTMKI=
+github.com/froehlichluana/digport-academy-exercises v0.0.0-20240718164208-8425bdeeb66c/go.mod h1:zrlVNiuLe8UJDMMchxtqxIqcMot1GuwZ0Nu9UjvJZsY=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
