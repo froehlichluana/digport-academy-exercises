@@ -7,8 +7,7 @@ import (
 func main() {
 	fmt.Println("Hello, world!")
 
-	exercicios.Despesas()
-	exercicios.TotalDepesas()
+	exercicios.ListaDeContatos()
 
 }
 
