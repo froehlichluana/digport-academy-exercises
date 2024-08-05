@@ -5,7 +5,7 @@ import (
 
 )
 func main() {
-	logic.Tabuada()
-
+	logic.sum()
 }
+
 

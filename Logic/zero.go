@@ -2,18 +2,19 @@ package logic
 
 import "fmt"
 
-func Zero(){
-	var number int 
+func ZeroCheck(){
+
+	var number int
 
 	fmt.Println("Enter a number: ")
-	fmt.Scan(number)
+	fmt.Scanf("%d", &number)
 
-	if (number > 0){
-		fmt.Println("Greater than 0.")
-	if (number == 0) {
-		fmt.Println("Zero.")
-	}else{
-		fmt.Println("Lessa than zero.")
-	}
-	}
+	if number > 0{
+		fmt.Println("Greater than zero.")
+	} else if number < 0  {
+		fmt.Println("Less than zero.")
+	} else{
+		fmt.Println("Zero. ")
+}
+
 }
