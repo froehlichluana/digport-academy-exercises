@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"github.com/froehlichluana/digport-academy-exercises/exercicios"
+	"github.com/froehlichluana/digport-academy-exercises/Logic"
+
 )
 func main() {
-	fmt.Println("Hello, world!")
-
-	exercicios.ListaDeContatos()
+	logic.Tabuada()
 
 }
 
