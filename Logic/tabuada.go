@@ -5,7 +5,7 @@ import "fmt"
 func Tabuada() {
 	var numerador int 
 	var resultado int
-	fmt.Sprintln("Qual número você quer calcular a tabuada?")
+	fmt.Println("Qual número você quer calcular a tabuada?")
 	fmt.Scanf("%d", &numerador)
 
 	
