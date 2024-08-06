@@ -4,15 +4,15 @@ import "fmt"
 
 func Tabuada() {
 	var numerador int 
-	var resultado int
 	fmt.Println("Qual número você quer calcular a tabuada?")
 	fmt.Scanf("%d", &numerador)
+	i := 1
 
-	
-
-	for i := 1; i <= 10; i++ {
-		
-		resultado = numerador * i
-		fmt.Printf("%d X %d = %d/n", i, numerador, resultado)
+	for {
+		if (i>10){
+			break;
+		}
+		fmt.Println(numerador, " X ", i ," = ", numerador * i)
+		i++
 	}
 }
